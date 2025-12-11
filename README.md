@@ -1,18 +1,18 @@
-﻿# Krishna Abhinav Nelanuthala | Cybersecurity Portfolio
+# Krishna Abhinav Nelanuthala | Cybersecurity Portfolio
 
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
 
-A modern, premium portfolio website showcasing the expertise and experience of **Krishna Abhinav Nelanuthala** — Cybersecurity Expert & Digital Forensics Specialist.
+A modern, premium portfolio website showcasing the expertise and experience of **Krishna Abhinav Nelanuthala** � Cybersecurity Expert & Digital Forensics Specialist.
 
-## 🔗 Live Demo
+## ?? Live Demo
 
-[View Live Site](https://github.com/YOUR_USERNAME/Portfolio) <!-- Update with your actual live URL -->
+[View Live Site](https://github.com/Abhii25/Portfolio) <!-- Update with your actual live URL -->
 
 ---
 
-## 📋 Table of Contents
+## ?? Table of Contents
 
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
@@ -25,22 +25,22 @@ A modern, premium portfolio website showcasing the expertise and experience of *
 
 ---
 
-## ✨ Features
+## ? Features
 
-- **Premium Dark Theme** — Sleek, high-tech aesthetic with electric cyan accents
-- **Glassmorphism Design** — Modern frosted-glass UI elements throughout
-- **Animated Loading Screen** — Terminal-style boot sequence animation
-- **Custom Cursor** — Interactive cursor with trail animation
-- **Particle Background** — Dynamic canvas-based animated background
-- **Fully Responsive** — Optimized for all devices (desktop, tablet, mobile)
-- **Smooth Animations** — Micro-interactions and scroll-based effects
-- **Interactive Accordion** — Expandable expertise sections
-- **Contact Form Integration** — Powered by Formspree for easy message handling
-- **SEO Optimized** — Proper meta tags and semantic HTML structure
+- **Premium Dark Theme** � Sleek, high-tech aesthetic with electric cyan accents
+- **Glassmorphism Design** � Modern frosted-glass UI elements throughout
+- **Animated Loading Screen** � Terminal-style boot sequence animation
+- **Custom Cursor** � Interactive cursor with trail animation
+- **Particle Background** � Dynamic canvas-based animated background
+- **Fully Responsive** � Optimized for all devices (desktop, tablet, mobile)
+- **Smooth Animations** � Micro-interactions and scroll-based effects
+- **Interactive Accordion** � Expandable expertise sections
+- **Contact Form Integration** � Powered by Formspree for easy message handling
+- **SEO Optimized** � Proper meta tags and semantic HTML structure
 
 ---
 
-## 🛠 Technologies Used
+## ?? Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -52,26 +52,26 @@ A modern, premium portfolio website showcasing the expertise and experience of *
 
 ---
 
-## 📁 Project Structure
+## ?? Project Structure
 
 ```
 Portfolio/
-├── index.html          # Main HTML file
-├── README.md           # Project documentation
-├── css/
-│   ├── style.css       # Main stylesheet
-│   └── style_backup.css # Backup styles
-├── js/
-│   └── main.js         # JavaScript functionality
-└── assets/
-    ├── logo.png        # Site logo
-    ├── profile.jpg     # Profile photograph
-    └── resume.pdf      # Downloadable resume
++-- index.html          # Main HTML file
++-- README.md           # Project documentation
++-- css/
+�   +-- style.css       # Main stylesheet
+�   +-- style_backup.css # Backup styles
++-- js/
+�   +-- main.js         # JavaScript functionality
++-- assets/
+    +-- logo.png        # Site logo
+    +-- profile.jpg     # Profile photograph
+    +-- resume.pdf      # Downloadable resume
 ```
 
 ---
 
-## 🚀 Getting Started
+## ?? Getting Started
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ Portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Portfolio.git
+   git clone https://github.com/Abhii25/Portfolio.git
    ```
 
 2. **Navigate to the project directory**
@@ -108,7 +108,7 @@ Portfolio/
 
 ---
 
-## 📖 Sections
+## ?? Sections
 
 | Section | Description |
 |---------|-------------|
@@ -121,7 +121,7 @@ Portfolio/
 
 ---
 
-## 🎨 Customization
+## ?? Customization
 
 ### Changing Colors
 
@@ -158,13 +158,13 @@ The contact form is integrated with [Formspree](https://formspree.io/). To use y
 
 ---
 
-## 👤 About the Developer
+## ?? About the Developer
 
 **Krishna Abhinav Nelanuthala**
 
-- 🎓 MSc Cybersecurity (Distinction) — University of Hertfordshire
-- 💼 Cybersecurity Subject Matter Expert at PraNaga Solutions
-- 🔬 Research focus: Digital Forensics & Evidence Recovery
+- ?? MSc Cybersecurity (Distinction) � University of Hertfordshire
+- ?? Cybersecurity Subject Matter Expert at PraNaga Solutions
+- ?? Research focus: Digital Forensics & Evidence Recovery
 
 ### Expertise Areas
 
@@ -175,7 +175,7 @@ The contact form is integrated with [Formspree](https://formspree.io/). To use y
 
 ---
 
-## 📬 Contact
+## ?? Contact
 
 - **Email**: [krishnaabhinav2518@gmail.com](mailto:krishnaabhinav2518@gmail.com)
 - **LinkedIn**: [Krishna Abhinav Nelanuthala](https://www.linkedin.com/in/krishnaabhinavnelanuthala/)
@@ -183,12 +183,12 @@ The contact form is integrated with [Formspree](https://formspree.io/). To use y
 
 ---
 
-## 📄 License
+## ?? License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
 <p align="center">
-  <strong>© 2025 Krishna Abhinav Nelanuthala. All systems operational.</strong>
+  <strong>� 2025 Krishna Abhinav Nelanuthala. All systems operational.</strong>
 </p>
