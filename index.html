@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Krishna Abhinav Nelanuthala - Head of Cybersecurity & Digital Forensics Expert. Securing the Digital Frontier.">
+    <title>Krishna Abhinav Nelanuthala | Cybersecurity Expert</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-trail"></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="terminal-container">
+            <div class="terminal-header">
+                <span class="terminal-icon"></span>
+                <span class="terminal-title">root@kali:~</span>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-output" id="terminal-output"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Animation Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/logo.png" alt="Krishna Abhinav Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Timeline</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <p class="overline">System Status: <span class="status-online">ONLINE</span></p>
+                <div class="hero-name-section">
+                    <h1>Krishna Abhinav <br><span class="text-gradient">Nelanuthala</span></h1>
+                    <img src="assets/profile.jpg" alt="Krishna Abhinav Nelanuthala" class="profile-image">
+                </div>
+                <p class="tagline">Securing the Digital Frontier through strategic defense and precision forensics.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="https://www.linkedin.com/in/krishnaabhinavnelanuthala/" target="_blank"
+                        class="btn btn-secondary">Connect on LinkedIn</a>
+                    <a href="assets/resume.pdf" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">01. <span class="text-accent">About Me</span></h2>
+            <div class="glass-card about-card">
+                <p>
+                    I am a highly motivated and results-driven <strong>Cybersecurity Specialist</strong> dedicated to
+                    bridging the gap between cutting-edge research and real-world security operations. I hold an
+                    <strong>MSc in Cybersecurity with Distinction</strong> from the University of Hertfordshire, where
+                    my academic focus solidified my deep interest in protecting digital assets.
+                </p>
+
+                <h3 style="color: var(--accent-secondary); margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem;">
+                    Professional Focus & Expertise</h3>
+                <p>
+                    Currently, I serve as a <strong>Cybersecurity Subject Matter Expert (SME)</strong> at PraNaga
+                    Solutions, where I leverage my expertise to provide strategic guidance on complex security
+                    challenges and compliance.
+                </p>
+
+                <p style="margin-top: 20px;"><strong>My core technical strengths:</strong></p>
+                <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                    <li><strong>Digital Forensics:</strong> Evidence Preservation, Chain of Custody, Log Analysis, Data
+                        Integrity & Hashing (SHA-1), Autopsy, Disk Imaging.
+                    <li><strong>Cybersecurity:</strong> Penetration Testing, Risk Assessment, Threat Modeling, Security
+                        Policy Development, Network Security (Wireshark/Nmap), Cryptography.
+                    <li><strong>Programming:</strong> Python (Scripting, Bot Development), SQL (Database Management),
+                        HTML/CSS (Front-end Development).
+                </ul>
+
+                <p style="margin-top: 20px;">
+                    My master's research culminated in the development of a <strong>Comprehensive Forensic Framework for
+                        Digital Evidence Recovery from Discord</strong>, pioneering a novel method to validate data
+                    integrity using cryptographic hashing and tool cross-verification—a vital contribution to the field
+                    of volatile data forensics.
+                </p>
+
+                <h3 style="color: var(--accent-secondary); margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem;">
+                    Beyond the Screen</h3>
+                <p>
+                    While my professional life is centered on defense and digital investigation, I maintain a strong
+                    creative and artistic balance:
+                </p>
+                <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                    <li><strong>Music & Art:</strong> Avid pianist with a keen interest in art and design, feeding my
+                        passion for aesthetic development and clean user interfaces.
+                    <li><strong>Creative Writing & Development:</strong> Story writing and applying creativity to design
+                        projects, ensuring technical work is both secure and thoughtfully built.
+                    <li><strong>Relaxation:</strong> Listening to music to unwind and recharge.
+                </ul>
+
+                <p style="margin-top: 20px; font-style: italic; color: var(--accent-secondary);">
+                    I believe the intersection of technical rigor and creative problem-solving is where the most
+                    impactful security solutions are found. I am always open to connecting with professionals and
+                    collaborating on projects that challenge the status quo in cybersecurity and digital forensics.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section">
+        <div class="container">
+            <h2 class="section-title">02. <span class="text-accent">Core Expertise</span></h2>
+            <div class="skills-accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Digital Forensics & Investigation</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                            <li>• Evidence Handling & Integrity</li>
+                            <li>• Volatile Data Acquisition</li>
+                            <li>• File Hashing & Verification (SHA-1)</li>
+                            <li>• Autopsy, FTK, EnCase</li>
+                            <li>• Windows/Linux File System Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Security Automation & Scripting</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                            <li>• Python (Advanced): API Integration, Bot Development</li>
+                            <li>• Database Management: SQL, SQLite</li>
+                            <li>• Data Visualization: Matplotlib</li>
+                            <li>• CLI: Linux Shell, PowerShell</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Cyber Security & Risk Management</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                            <li>• Risk Assessment & Threat Modeling</li>
+                            <li>• Network Security: Wireshark, IDS, Firewalls</li>
+                            <li>• Penetration Testing: Nmap, Nessus</li>
+                            <li>• Cloud Security: AWS/Azure/GCP</li>
+                            <li>• Zero Trust Frameworks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Analysis & Communication</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                            <li>• Architectural Planning</li>
+                            <li>• Technical Report Writing</li>
+                            <li>• Stakeholder Communication</li>
+                            <li>• Research & Documentation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Design & Creativity</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                            <li>• UI Design Principles</li>
+                            <li>• Creative Problem-Solving</li>
+                            <li>• Attention to Detail</li>
+                            <li>• Storytelling & Narrative</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">03. <span class="text-accent">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="glass-card project-card">
+                    <div class="card-header">
+                        <h3>Digital Evidence Recovery from Discord</h3>
+
+                    </div>
+                    <p>Developed a scalable and reliable forensic framework for the recovery and validation of digital
+                        evidence from Discord, addressing data volatility and tampering challenges to ensure evidence
+                        integrity and authenticity for legal and investigative purposes.</p>
+                    <div class="tags">
+                        <span>Digital Forensics</span><span>Evidence Recovery</span><span>Data Validation</span>
+                    </div>
+                    <a href="#" class="project-link"></a>
+                </div>
+                <div class="glass-card project-card">
+                    <div class="card-header">
+                        <h3>FPT.AI Text-to-Speech Conversion Analysis</h3>
+
+                    </div>
+                    <p>Presented a development framework for processing text to generate different male and female
+                        voices for Vietnamese. The TTS application helps people in various working and entertainment
+                        environments, especially those with communication difficulties.</p>
+                    <div class="tags">
+                        <span>TTS</span><span>AI</span><span>Speech Synthesis</span><span>Vietnamese</span>
+                    </div>
+                    <a href="#" class="project-link"></a>
+                </div>
+                <div class="glass-card project-card">
+                    <div class="card-header">
+                        <h3>CoDetect Financial Fraud Detection</h3>
+
+                    </div>
+                    <p>Proposed CoDetect framework for detecting fraud in online transactions and classifying fraud
+                        types. The system performs fraud detection on graph-based similarity matrix and feature matrix
+                        simultaneously using similarity and feature tensors.</p>
+                    <div class="tags">
+                        <span>Fraud Detection</span><span>Anomaly Detection</span><span>Graph Analysis</span>
+                    </div>
+                    <a href="#" class="project-link"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">04. <span class="text-accent">Timeline</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Cybersecurity SME</h3>
+                        <h4>PraNaga Solutions</h4>
+                        <p>Providing strategic guidance on complex security challenges and compliance as a Subject
+                            Matter Expert.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2025</div>
+                    <div class="timeline-content glass-card">
+                        <h3>MSc Cybersecurity</h3>
+                        <h4>University of Hertfordshire</h4>
+                        <p>Graduated with Distinction. Developed a comprehensive forensic framework for digital evidence
+                            recovery from Discord.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2022</div>
+                    <div class="timeline-content glass-card">
+                        <h3>B.Tech Computer Science</h3>
+                        <h4>St. Mary's Engineering College</h4>
+                        <p>Foundation in computer science principles, programming, and software development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">05. <span class="text-accent">Secure Comms</span></h2>
+            <div class="contact-wrapper">
+                <div class="glass-card contact-info-card">
+                    <h3 style="color: var(--accent-secondary); margin-bottom: 25px;">Get In Touch</h3>
+
+                    <div class="contact-item">
+                        <div class="contact-label">Email</div>
+                        <a href="mailto:krishnaabhinav2518@gmail.com"
+                            class="contact-value">krishnaabhinav2518@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-label">Phone</div>
+                        <a href="tel:+447774928489" class="contact-value">+44 7774928489</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-label">LinkedIn</div>
+                        <a href="https://www.linkedin.com/in/krishnaabhinavnelanuthala/" target="_blank"
+                            class="contact-value">Krishna Abhinav Nelanuthala</a>
+                    </div>
+
+                    <div class="contact-item" style="margin-top: 30px;">
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">
+                            I'm always open to discussing cybersecurity projects, research collaborations, or
+                            professional opportunities. Feel free to reach out through any of the channels above.
+                        </p>
+                        <a href="assets/resume.pdf" target="_blank" class="btn btn-primary" style="margin-top: 1.5rem;">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-form-card">
+                    <h3 style="color: var(--accent-secondary); margin-bottom: 25px;">Send a Message</h3>
+                    <form action="https://formspree.io/f/mpwvrvvj" method="POST" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="_replyto" id="email" placeholder="your.email@example.com"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="5" placeholder="Your message..."
+                                required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/abhii_2518?igsh=ZmI2a3JpaHFyZzhj&utm_source=qr" target="_blank"
+                    class="social-icon instagram">Instagram</a>
+                <a href="https://www.linkedin.com/in/krishnaabhinavnelanuthala/" target="_blank"
+                    class="social-icon linkedin">LinkedIn</a>
+                <a href="https://www.facebook.com/share/1A9oVeXKRJ/?mibextid=wwXIfr" target="_blank"
+                    class="social-icon facebook">Facebook</a>
+            </div>
+            <p>&copy; 2025 Krishna Abhinav Nelanuthala. All systems operational.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
